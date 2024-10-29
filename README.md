@@ -21,8 +21,9 @@ tomato/
 │   └── blink_anim.py   # Outro plugin de funcionalidade
 ├── config.json       # Arquivo de configuração com a lista de plugins
 └── main.py           # Arquivo principal que usa o Tomato para teste
+```
 
-# Descrição dos Arquivos
+## Descrição dos Arquivos
 
 **core.py**: Contém a função format que aplica estilos, cores e alinhamento ao texto, além de funções auxiliares para validação e aplicação dos estilos.
 
