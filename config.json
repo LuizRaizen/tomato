@@ -1,0 +1,6 @@
+{
+    "plugins": [
+        "italics_style",
+        "blink_anim"
+    ]
+}
