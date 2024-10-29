@@ -43,9 +43,11 @@ tomato/
 
 Clone o repositório e instale as dependências (não há dependências externas no momento):
 
+```
 git clone https://github.com/LuizRaizen/tomato.git
 cd tomato
 python setup.py install
+```
 
 ## Exemplo de Uso
 
@@ -59,21 +61,27 @@ Esse exemplo imprime "Olá, mundo!" no terminal com negrito, cor do texto amarel
 
 Para utilizar plugins, configure o arquivo config.json para incluir os plugins desejados:
 
+```
 {
     "plugins": [
         "italics_style",
         "blink_anim"
     ]
 }
+```
 
 Depois, carregue os plugins com a função load_plugins e utilize o novo estilo:
 
+```
 from core import format, load_plugins
+```
 
 ## Carrega os plugins configurados
-load_plugins('config.json')
 
+```
+load_plugins('config.json')
 print(format("Texto em itálico e piscando!", style="italics", color="cyan", markup="black", align="right"))
+```
 
 ## Licença
 
