@@ -1,0 +1,8 @@
+tomato/
+│
+├── core.py           # Lógica principal do Tomato
+├── plugins/          # Diretório de plugins
+│   ├── __init__.py   # Permite carregar plugins dinamicamente
+│   ├── italics_style.py   # Exemplo de plugin que adiciona um estilo novo
+│   └── blink_anim.py   # Outro plugin de funcionalidade
+└── main.py           # Arquivo principal que usa o Tomato para teste
