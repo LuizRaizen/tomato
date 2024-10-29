@@ -89,5 +89,5 @@ Este projeto está licenciado sob a MIT License.
 
 ## Autor
 
-Desenvolvido por **Luiz R.
+Desenvolvido por **Luiz R.**
 
